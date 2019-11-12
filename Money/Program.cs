@@ -10,8 +10,9 @@ namespace Money
     {
         static void Main(string[] args)
         {
-
-            Console.WriteLine("Hello1");
+            ClassLibrary1.Class1 class1 = new ClassLibrary1.Class1();
+            class1.Name = "Ivan"; class1.balans = 100;
+            Console.WriteLine($"Name:{class1.Name} balans:{class1.balans}");
         }
     }
 }
